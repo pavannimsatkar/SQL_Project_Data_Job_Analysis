@@ -11,7 +11,6 @@ WITH top_paying_skills AS (
         job_id,
         job_title,
         salary_year_avg,
-        job_posted_date,
         name AS company_name
     FROM
         job_postings_fact

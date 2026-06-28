@@ -74,7 +74,6 @@ WITH top_paying_skills AS (
         job_id,
         job_title,
         salary_year_avg,
-        job_posted_date,
         name AS company_name
     FROM
         job_postings_fact
@@ -162,9 +161,9 @@ LIMIT 25;
 
 Here's a breakdown of the results for top paying skills for Data Analysts:
 
-- **Blockchain, DevOps & Legacy Systems Pay Premium at the Top**: The highest salary cluster is driven by skills like SVN, Solidity, VMware, and Terraform, showing strong demand for both legacy infrastructure management and modern blockchain/infra automation expertise, where organizations pay a premium for reliability and distributed systems knowledge.
-- **Cloud-Native Engineering & Infrastructure Automation is Highly Valued**: Tools such as Kafka, Cassandra, Airflow, Ansible, Puppet, and Bitbucket highlight strong demand for scalable data pipelines, configuration management, and streaming architectures, reflecting the importance of building and maintaining cloud-native, production-grade systems.
-- **AI/ML & Data Engineering Ecosystem Skills Drive Competitive Salaries**: Libraries and platforms like PyTorch, TensorFlow, Keras, Hugging Face, Golang, and Scala show that expertise in machine learning frameworks and high-performance programming languages continues to command strong salaries due to their role in building intelligent, scalable data-driven applications
+- **Blockchain, Infrastructure & Legacy Systems Command the Highest Salaries**: Skills such as **SVN**, **Solidity**, **VMware**, and **Terraform** dominate the top salary range, reflecting strong demand for professionals who can manage critical infrastructure, automate cloud environments, and support blockchain-based applications. Organizations are willing to pay a premium for expertise that ensures system reliability, security, and scalable deployment.
+- **Modern Data Platforms & AI Solutions Drive Premium Compensation**: Technologies including **Couchbase**, **DataRobot**, and **MXNet** highlight the increasing value of professionals who can build intelligent, data-driven solutions using scalable databases and machine learning platforms. As businesses continue investing in AI adoption and real-time analytics, these specialized skills remain highly rewarded.
+- **High-Performance Programming & Data Analytics Expertise Remain Valuable**: Skills such as **Golang**, **dplyr**, and **Twilio** demonstrate the importance of efficient software development, advanced data manipulation, and communication platform integration. These capabilities enable organizations to develop scalable applications, derive actionable insights from data, and enhance customer engagement, contributing to competitive salary offerings
 
 | Skill          | Avg Salary |
 |----------------|------------|
@@ -240,6 +239,20 @@ Throughout this journey, I strengthened my SQL skills and added some powerful te
 
 # Conclusions
 
+From the analysis, several key insights emerged regarding the data analyst job market:
+
+* **Top-Paying Data Analyst Jobs:** Remote data analyst positions offer excellent earning potential, with salaries ranging from approximately **$184,000** to **$650,000**, demonstrating significant opportunities for experienced professionals.
+
+* **Skills for Top-Paying Jobs:** High-paying data analyst roles consistently require strong proficiency in **SQL**, **Python**, and **Tableau**, highlighting the importance of technical expertise in securing premium positions.
+
+* **Most In-Demand Skills:** **SQL**, **Excel**, **Python**, **Tableau**, and **Power BI** are the most frequently requested skills, indicating that these technologies form the core skill set expected from data analysts across industries.
+
+* **Skills with Higher Salaries:** Specialized technologies such as **SVN**, **Solidity**, **Couchbase**, **DataRobot**, and **Terraform** are associated with the highest average salaries, reflecting the premium organizations place on niche and advanced technical expertise.
+
+* **Optimal Skills for Career Growth:** Cloud platforms and modern data technologies, including **Snowflake**, **Azure**, **AWS**, **BigQuery**, and **Go**, provide an excellent combination of strong market demand and competitive salaries, making them valuable skills for long-term career advancement.
 
 
+### Closing Thoughts
+
+This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
 
